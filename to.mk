@@ -16,12 +16,12 @@
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
 
 # Inherit device configuration
-$(call inherit-product, device/samsung/ms013g/bliss_ms013g.mk)
+$(call inherit-product, device/samsung/ms013g/to_ms013g.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := SM-G7102
 PRODUCT_DEVICE := ms013g
-PRODUCT_NAME := bliss_ms013g
+PRODUCT_NAME := to_ms013g
 
 # Product property
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=ms013gxx TARGET_DEVICE=ms013g BUILD_FINGERPRINT="samsung/ms013gxx/ms013g:4.4.2/KOT49H/G7102XXUBOB1:user/release-keys" PRIVATE_BUILD_DESC="ms013gxx-user 4.4.2 KOT49H G7102XXUBOB1 release-keys"
