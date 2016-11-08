@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Inherit some common Bliss stuff.
-$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+$(call inherit-product, vendor/to/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/samsung/ms013g/to_ms013g.mk)
